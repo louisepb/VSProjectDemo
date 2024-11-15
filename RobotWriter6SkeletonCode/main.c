@@ -37,6 +37,7 @@ int main()
     printf ("\nThe robot is now ready to draw\n");
     printf("New line\n");
     printf("another new line");
+    printf( "line in branch");
     printf("line after branch");
 
         //These commands get the robot into 'ready to draw mode' and need to be sent before any writing commands
