@@ -35,6 +35,7 @@ int main()
     WaitForDollar();
 
     printf ("\nThe robot is now ready to draw\n");
+    printf("New line\n");
 
         //These commands get the robot into 'ready to draw mode' and need to be sent before any writing commands
     sprintf (buffer, "G1 X0 Y0 F1000\n");
