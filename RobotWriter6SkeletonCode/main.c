@@ -36,6 +36,7 @@ int main()
 
     printf ("\nThe robot is now ready to draw\n");
     printf( "Added comment");
+    printf("Comment in branch");
 
         //These commands get the robot into 'ready to draw mode' and need to be sent before any writing commands
     sprintf (buffer, "G1 X0 Y0 F1000\n");
